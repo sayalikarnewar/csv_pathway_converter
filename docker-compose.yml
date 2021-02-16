@@ -1,0 +1,12 @@
+version: "3.8"
+
+services: 
+  rest:
+    image: api_image
+    volumes: 
+      - /home/sayali_karnewar/Documents/follo/Projects/pathway_converter:/data/db
+    working_dir: /data/db
+    ports: 
+      - 8080:8080
+    command: python3 -u main.py
+    network_mode: "host"
