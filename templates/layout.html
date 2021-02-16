@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jinja</title>
+</head>
+<body>
+
+   <h2> Check if csv extension</h2>
+   <hr><br>
+
+    {% block body %}
+
+    <form method="POST" action="{{ url('get_handle') }}" enctype="multipart/form-data">
+        <input type="file" name="filename" accept=".csv" />
+        <br><br>
+        <input type="submit">
+    </form>
+
+    {%endblock%}
+    
+    <!-- response -->
+    {% block response %}
+        <p>{{response}}</p>  
+    {%endblock%}
+
+</body>
+</html>
