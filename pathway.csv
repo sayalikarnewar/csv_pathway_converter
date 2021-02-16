@@ -1,0 +1,78 @@
+Diagnosis,Diarrohea ,,,,,
+Age,Infant,,,,,
+Gender,All,,,,,
+Any comorbities this pt may have,NO,,,,,
+First follo up,1,,,,,
+Question Number,Question,Answer type,Answers,Alert,Next question,Summary
+1,Has your child had more than 5 loose stools in the past 24 hours?,Text,Yes,Major,2,Patient continues to have loose stools
+,,,No,No Alert,4,Patient has had less than 5 loose stools in the last 24 hours
+,,,,,,
+,,,,,,
+2,Has the consistency of the stool improved? ,Text,Yes,No alert,3,
+,,,No,Minor,3,Stools are still loose
+,,,,,,
+,,,,,,
+3,Has there been an increase or decrease in the number of loose motions?,Text,Increase,Major,4,Increase in number of loose motions
+,,,Decrease ,No Alert,4,
+,,,,,,
+4,Is your child restless or lethargic?,Text,Restless,Major ,5,Patient is restless
+,,,Lethargic,Major,5,Patient is lethargic
+,,,No,No alert,5,
+,,,,,,
+5,Is your child feeding properly?,Text ,Yes,No alert,6,pt is feeding normally
+,,,No,Major ,6,Patient is not feeding well
+,,,,,,
+6,Does your child have dry mouth and tongue?,Text,Yes,Major,7,Patient has dry mouth and tongue
+,,,No,No alert,7,
+,,,,,,
+7,Is your child having any fever,Text,Yes,Minor,8,Child is febrile
+,,,No,No Alert,8,Child is afebrile
+,,,,,,
+8,Are you giving your child the ORS and medications as advised by the doctor?,Text,Yes,No Alert,9,
+,,,No,Major,9,Not taking medications 
+,,,,,,
+9,Any new symptoms?,Text,Yes,Major,10,Has developed new symptoms 
+,,,No,No Alert,11,
+,,,,,,
+10,Please input symptoms,Any Media,,No Alert,11,
+,,,,,,
+11,FOLLO END,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+Second Follo up,2,,,,,
+,,,,,,
+Question Number,Question,Answer type,Answers,Alert,Next question,Summary
+1,Has your child had more than 5 loose stools in the past 24 hours?,Text,Yes,Major,2,Patient continues to have loose stools
+,,,No,No Alert,4,Patient has had less than 5 loose stools in the last 24 hours
+,,,,,,
+,,,,,,
+2,Has the consistency of the stool improved? ,Text,Yes,No alert,3,
+,,,No,Minor,3,Stools are still loose
+,,,,,,
+,,,,,,
+3,Has there been an increase or decrease in the number of loose motions?,Text,Increase,Major,4,Increase in number of loose motions
+,,,Decrease ,No Alert,4,
+,,,,,,
+4,Is your child restless or lethargic?,Text,Restless,Major ,5,Patient is restless
+,,,Lethargic,Major,5,Patient is lethargic
+,,,No,No alert,5,
+,,,,,,
+5,Is your child feeding properly?,Text ,Yes,No alert,6,pt is feeding normally
+,,,No,Major ,6,Patient is not feeding well
+,,,,,,
+6,Does your child have dry mouth and tongue?,Text,Yes,Major,7,Patient has dry mouth and tongue
+,,,No,No alert,7,
+,,,,,,
+7,Is your child having any fever,Text,Yes,Minor,8,Child is febrile
+,,,No,No Alert,8,Child is afebrile
+,,,,,,
+8,Are you giving your child the ORS and medications as advised by the doctor?,Text,Yes,No Alert,9,
+,,,No,Major,9,Not taking medications 
+,,,,,,
+9,Any new symptoms?,Text,Yes,Major,10,Has developed new symptoms 
+,,,No,No Alert,11,
+,,,,,,
+10,Please input symptoms,Any Media,,No Alert,11,
+,,,,,,
+11,FOLLO END,,,,,
